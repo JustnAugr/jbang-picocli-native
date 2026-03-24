@@ -18,3 +18,5 @@ GraalVM obviously offers a much faster startup time, suited to actually using th
 But, there's a tradeoff on size:
 
 <img width="592" height="83" alt="image" src="https://github.com/user-attachments/assets/bded7390-cedb-4dba-a4c3-61bab89c0295" />
+
+( in a world where everyone has TBs of disk space and writing small binaries might not be as valuable, I guess this up to you to decide if that tradeoff is OK - personally I don't love that size increase but I do love writing java so ¯\_(ツ)_/¯ )

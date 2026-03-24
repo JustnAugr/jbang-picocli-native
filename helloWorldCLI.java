@@ -8,7 +8,7 @@ import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Parameters;
 
-@Command(name = "greet")
+@Command(name = "greet", mixinStandardHelpOptions = true)
 class GreetApp implements Runnable {
     @Parameters(description = "Name to greet", defaultValue = "World")
     String name;
